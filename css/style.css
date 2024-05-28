@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    color: white !important;
+}
+
+body {
+    background: #111;
+    background-image: url('../src/img/backgroundImage.jpg'); /* Arka plan resmi */
+      background-size: cover; /* Resmin ekranı kaplamasını sağlar */
+      background-repeat: no-repeat; /* Resmin tekrar etmemesini sağlar */
+}
+
+.name-font {
+    font-family: "Poetsen One", sans-serif;
+}
+
+.nav-name:hover {
+    color: black !important;
+}
+
+.bg-karanlik {
+    background-color: #111 !important;
+}
+
+.sizeGithub {
+    font-size: 20px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0); /* Saydamlık değeri için rgba kullanıyoruz */
+  }
+
+
+/* ------------------------------------------------ */
+
+
+.kutu {
+    width: 150px;
+}
+
+.kutu,
+.icerik {
+    float: left;
+}
+
+.kutu {
+    flex: 0;
+    /* İstenilen genişliği ayarlayabilirsiniz */
+}
+
+.icerik {
+    margin-left: 50px;
+    flex: 1;
+    /* İstenilen genişliği ayarlayabilirsiniz */
+}
+
